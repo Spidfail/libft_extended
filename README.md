@@ -85,21 +85,26 @@ My own functions :
 |ft_strnstr_nb  | `int ft_strnstr_nb(const char *haystack, const char *ndle, size_t len)` | Return the number of time the string `ndle` appeared in `haystack`. No more than `len` char are searched. |
 |ft_strsvchr    | `char *ft_strsvchr(const char *s, char *chcmp)` | Use `ft_strchr` to find a collection of char `chcmp` in the string `s`, instead of finding one. Return a pointer to the position if one of them appear. |
 
+|---------------|--------------------------------------------|-----------------------------------|
 |ft_tolower     | `int ft_tolower(int c) ` | Use `ft_strchr` to find a collection of char `chcmp` in the string `s`, instead of finding one. Return a pointer to the position if one of them appear. |
 |ft_atol        | `long int ft_atol(const char *str)`        | Convert a string into a long int. |
 |ft_uatoi       | `unsigned int	ft_uatoi(const char *str)`   | Convert a string into an unsigned int. |
 |ft_uitoa       | `char *ft_uitoa(unsigned int nb) `         | Convert an unsigned int to a string. |
 
+|---------------|--------------------------------------------|-----------------------------------|
 |ft_isspace     | `int ft_isspace(int c)`                    | Check if the char `c` is a white space. |
 |ft_isstr       | `int ft_isstr(char *s, t_is id)`           | Wrapper of `ft_isalnum` `ft_isalpha` `ft_isdigit` `ft_isascii` `ft_isprint` `ft_isspace`. Check if the string `s` is of category `id`, depending on the Enum structure `t_is` in `libft.h` |
 
+|---------------|--------------------------------------------|-----------------------------------|
 |ft_memdup      | `void *ft_memdup(void *src, size_t len)`   | Duplicate the memory `src` of size `len`. Use `ft_memcpy` for copy. |
 |ft_memjoin     | `void *ft_memjoin(void *m1, void *m2, size_t size1, size_t size2)`   | Join the two memory `m1` and `m2` of respective size `size1` and `size2`. |
 |ft_memset      | `void *ft_memjoin(void *m1, void *m2, size_t size1, size_t size2)`   | Join the two memory `m1` and `m2` of respective size `size1` and `size2`. |
 
+|---------------|--------------------------------------------|-----------------------------------|
 |ft_count_base  | `size_t ft_count_base(int nb, size_t base)` | Return the power of the number `nb` depending on the `base` it belongs. |
 |ft_scount_base | `size_t ft_scount_base(int nb, size_t base)` | Return the size of the number `nb` if it came to be converted into a string, depending the `base` it belongs. |
 |ft_count_dbarray | `size_t ft_count_dbarray(void **arr)` | Return the size of a two dimensional array terminated by `NULL` char. |
 
+|---------------|--------------------------------------------|-----------------------------------|
 |ft_calloc_dbl  | `void *ft_calloc_dbl(const size_t size_elem, const size_t raw, const size_t column)` | Return an allocated two dimensional array of size `column` with `raw` elements on each iteration. |
 
