@@ -14,7 +14,7 @@
 
 /*
 ** uatoi takes a str with positive number ; so a '-' before any number
-** return 0. '+' is still checked.
+** return 0. '+' is accepted.
 */
 
 static int	ft_check_intmax(unsigned long int rtn)

@@ -1,25 +1,24 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strrpl.c                                        :+:      :+:    :+:   */
+/*   ft_dbl_chrcalloc.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: guhernan <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/01/20 15:54:43 by guhernan          #+#    #+#             */
-/*   Updated: 2021/01/27 09:20:09 by guhernan         ###   ########lyon.fr   */
+/*   Created: 2021/08/16 14:31:27 by guhernan          #+#    #+#             */
+/*   Updated: 2021/08/16 14:32:25 by guhernan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strrpl(char **s1, char **s2)
+void	*ft_calloc_dbl(const size_t size_elem, const size_t raw,
+		const size_t column)
 {
-	char	*tmp;
+	void	**rtn;
 
-	tmp = ft_strjoin(*s1, *s2);
-	free(*s1);
-	free(*s2);
-	*s1 = NULL;
-	*s2 = NULL;
-	return (tmp);
+	rtn = NULL;
+	if (raw < 0 || column < 1 || size_elem < 1)
+		return (rtn);
+	return (ft_calloc(column, (sizeof(size_elem * raw))));
 }

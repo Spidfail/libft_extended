@@ -12,7 +12,7 @@
 
 #include "libft.h"
 
-int	ft_count_split(void **arr)
+int	ft_count_dbarray(void **arr)
 {
 	int		i;
 

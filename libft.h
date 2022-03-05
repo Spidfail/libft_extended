@@ -38,9 +38,10 @@ unsigned int	ft_uatoi(const char *str);
 void			ft_bzero(void *s, size_t n);
 void			*ft_free(void *obj);
 void			*ft_calloc(size_t count, size_t size);
-char			**ft_dbl_chrcalloc(size_t count1, size_t count2);
+void			*ft_calloc_dbl(const size_t size_elem, const size_t raw,
+					const size_t column);
 size_t			ft_count_base(size_t nb, size_t base);
-int				ft_count_split(void **arr);
+int				ft_count_dbarray(void **arr);
 size_t			ft_scount_base(int nb, size_t base);
 int				ft_isalnum(int c);
 int				ft_isalpha(int c);
@@ -82,7 +83,7 @@ int				ft_strnstr_nb(const char *haystack, const char *ndle,
 					size_t len);
 char			*ft_strrchr(const char *s, int c);
 char			*ft_strtrim(char const *s1, char const *set);
-char			*ft_strrpl(char **s1, char **s2);
+char			*ft_strjoin_rpl(char **s1, char **s2);
 char			*ft_substr(char const *s, unsigned int start, size_t len);
 int				ft_tolower(int c);
 int				ft_toupper(int c);
