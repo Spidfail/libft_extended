@@ -6,6 +6,26 @@ A C language library meant to be used for 42 school projects. It contains mandat
 	<img src="readme_ressources/grade.png" alt="Libft Grade" width="280" height="300"/>
 </p>
 
+<p align="center">
+	<img src="https://img.shields.io/github/languages/top/Spidfail/libft_extended" alt="Most used language"/>
+	<img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/Spidfail/libft_extended">
+	<img alt="Repo size" src="https://img.shields.io/github/repo-size/Spidfail/libft_extended ">
+	<img src="https://img.shields.io/github/license/Spidfail/libft_extended" alt="Licence"/>
+</p>
+
+<p align="center">
+	<img src="https://img.shields.io/github/last-commit/Spidfail/libft_extended" alt="Last commit"/>
+	<img src="https://img.shields.io/github/issues-pr/Spidfail/libft_extended" alt="Pull requests"/>
+	<img src="https://img.shields.io/github/issues/Spidfail/libft_extended" alt="Issues"/>
+	<img src="https://img.shields.io/github/contributors/Spidfail/libft_extended" alt="Contributors"/>
+</p>
+
+<p align="center">
+	<img src="https://img.shields.io/github/followers/Spidfail?style=social" alt="User followers"/>
+	<!-- <img src="https://img.shields.io/github/stars/Spidfail?style=social" alt="User followers"/> -->
+	<!-- <img src="https://img.shields.io/github/watchers/Spidfail/libft_extended?style=social" alt="User followers"/> -->
+</p>
+
 ## Original purpose
 
 The `libft` project aims to learn the basics of C programming language by recoding parts of it's Standard Library. As a training exercise, it's not perfect but it works. You can find the list below.
