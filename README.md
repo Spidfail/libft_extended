@@ -1,5 +1,10 @@
 # libft_extended
+
 A C language library meant to be used for 42 school projects. It contains mandatory implementations as required and functions that I added for others. 
+
+<p align="center">
+	<img src="readme_ressources/grade.png" alt="Libft Grade" width="280" height="300"/>
+</p>
 
 ## Original purpose
 
