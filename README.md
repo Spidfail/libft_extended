@@ -17,13 +17,13 @@ Some constrains were added to make us use our brain, here is a summary :
 
 ## How to install the project
 
-Just clone it in your repository.
+Just clone it in your directory.
 
 ## How to use the libft
 
-About implementation, you need to list the name with the prefix "ft_" to distinguish these functions from the strandard ones.
+About implementation, don't forget the prefix "ft_" to distinguish these functions from the strandard ones.
 
-The Makefile will produce a binary called `libft.a` by using `ar` command. Compile your project with the binary to use listed functions.
+The Makefile will produce a binary called `libft.a` by using `ar` command. Compile your project with the binary to be able to use listed functions.
 
 ## List of the functions
 
@@ -67,15 +67,15 @@ typedef struct		s_list {
 
 | Function name | Prototype                                  | Description                       |
 |---------------|--------------------------------------------|-----------------------------------|
-| `ft_lstnew`     | `t_list *ft_lstnew(void *content)`         | Create a new allocated link/node. |
-| `ft_lastadd_front`   | `void ft_lstadd_front(t_list **lst, t_list *new)`   | Add a allocated link/node at the begining of the list. |
-| `ft_lastadd_back`   | `void ft_lstadd_back(t_list **lst, t_list *new)`   | Add a allocated link/node at the end of the list. |
-| `ft_lstsize`   | `int ft_lstsize(t_list *lst)`               | Return the size of the list `lst`.|
-| `ft_lstlast`   | `t_list ft_lstlast(t_list *lst)`            | Return the last element of the list `lst`. |
-| `ft_lstdelone` | `t_list ft_lstdelone(t_list *lst, void (del*)(void *))` | Apply the function `del` on the link `lst` then `free`. It let the link `next` untouch. |
-| `ft_lstclear`  | `t_list ft_lstclean(t_list **lst, void (del*)(void *))` | Apply the function `del` on the linked list `lst` then `free` each link. |
-| `ft_lstiter`   | `t_list ft_lstiter(t_list *lst, void (f*)(void *))` | Apply the function `f` on each element of the linked list `lst`. |
-| `ft_lstmap`   | `t_list *ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))` | Apply the function `f` on each element of the linked list `lst` then return the result of the application in an allocated new list. Apply the function `del` on each link if necessary. |
+| ft_lstnew     | `t_list *ft_lstnew(void *content)`         | Create a new allocated link/node. |
+| ft_lastadd_front   | `void ft_lstadd_front(t_list **lst, t_list *new)`   | Add a allocated link/node at the begining of the list. |
+| ft_lastadd_back   | `void ft_lstadd_back(t_list **lst, t_list *new)`   | Add a allocated link/node at the end of the list. |
+| ft_lstsize   | `int ft_lstsize(t_list *lst)`               | Return the size of the list `lst`.|
+| ft_lstlast   | `t_list ft_lstlast(t_list *lst)`            | Return the last element of the list `lst`. |
+| ft_lstdelone | `t_list ft_lstdelone(t_list *lst, void (del*)(void *))` | Apply the function `del` on the link `lst` then `free`. It let the link `next` untouch. |
+| ft_lstclear  | `t_list ft_lstclean(t_list **lst, void (del*)(void *))` | Apply the function `del` on the linked list `lst` then `free` each link. |
+| ft_lstiter   | `t_list ft_lstiter(t_list *lst, void (f*)(void *))` | Apply the function `f` on each element of the linked list `lst`. |
+| ft_lstmap    | `t_list *ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))` | Apply the function `f` on each element of the linked list `lst` then return the result of the application in an allocated new list. Apply the function `del` on each link if necessary. |
 
 My own functions :
 
